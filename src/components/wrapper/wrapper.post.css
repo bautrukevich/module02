@@ -1,0 +1,24 @@
+.wrapper {
+
+  &_pt {
+    padding-top: 102px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+
+    &_pt {
+      padding-top: 98px;
+    }
+  }
+}
+
+@media (max-width: 667px) {
+  .wrapper {
+
+    &_pt {
+      padding-top: 88px;
+    }
+  }
+}

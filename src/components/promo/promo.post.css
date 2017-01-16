@@ -1,0 +1,171 @@
+.promo {
+  height: 550px;
+  position: relative;
+  z-index: 90;
+
+  &__arrow {
+    position: absolute;
+    top: calc(50% - 70px);
+    z-index: 100;
+    display: none;
+
+    &_is_active {
+      display: block;
+      opacity: 0.5;
+      transition: opacity 0.2s ease;
+      z-index: 150;
+      &:hover {
+        opacity: 1;
+        transition: opacity 0.5s ease;
+      }
+    }
+
+    &_left {
+      left: 30px;
+    }
+
+    &_right {
+      right: 30px;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  &__slide {
+    height: 0;
+    width: 0;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    visibility: hidden;
+    opacity: 0;
+    /*transition: opacity 0.5s ease;*/
+    z-index: 99;
+
+
+    &_is_active {
+      min-height: 100%;
+      width: 100%;
+      height: auto;
+
+      visibility: visible;
+      opacity: 1;
+      /*transition: opacity 0.5s ease;*/
+      z-index: 100;
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    left: 0;
+    top: 0;
+  }
+
+  &__content {
+    position: relative;
+    max-width: 50%;
+    margin: 0 auto;
+    z-index: 1000;
+  }
+
+  &__more {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: -20px;
+    z-index: 200;
+  }
+  &__explore {
+    opacity: 0.7;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 21px;
+    margin-bottom: 20px;
+  }
+  &__link {
+    z-index: 100;
+    fill: #7DC855;
+    transition: fill 0.2s ease;
+
+    &:hover {
+
+      fill: #7DC855;
+      transition: fill 0.2s ease;
+
+      .icon {
+        fill: #65b13c;
+        transition: fill 0.5s ease;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .promo {
+
+    &__content {
+      max-width: 75%;
+      margin: 0 auto;
+    }
+
+    &__overlay {
+      left: 0;
+      top: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .promo {
+    height: 600px;
+
+    &__content {
+      max-width: 75%;
+      margin: 0 auto;
+    }
+
+    &__overlay {
+      left: 0;
+      top: 0;
+    }
+  }
+}
+
+@media (max-width: 667px) {
+  .promo {
+    height: 700px;
+
+    &__arrow {
+      top: 20px;
+
+      &_left {
+        left: 20px;
+      }
+
+      &_right {
+        right: 20px;
+      }
+    }
+
+    &__content {
+      max-width: 95%;
+      margin: 0 auto;
+    }
+
+    &__overlay {
+      left: 0;
+      top: 0;
+    }
+  }
+}

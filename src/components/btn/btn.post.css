@@ -1,0 +1,46 @@
+.btn {
+  font-size: 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 22px 50px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+
+  margin-bottom: 20px;
+
+  transition: all 0.2s ease;
+
+  &:hover {
+    transition: all 0.5s ease;
+  }
+
+  &_end {
+    margin-bottom: 0;
+  }
+
+  &_full {
+    width: 100%;
+  }
+
+  &_white {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.11);
+    color: #fff;
+
+    &:hover {
+      background-color: #fff;
+      border-color: #fff;
+      color: #000;
+    }
+  }
+
+  &_success {
+    background: #7DC855;
+    color: #fff;
+
+    &:hover {
+      background: #65b13c;
+    }
+  }
+}

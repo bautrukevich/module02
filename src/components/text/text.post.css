@@ -1,0 +1,28 @@
+.u-text {
+  &_right {
+    text-align: right;
+  }
+  &_center {
+    text-align: center;
+  }
+
+  &_upper {
+    text-transform: uppercase;
+  }
+  &_italic {
+    font-style: italic;
+  }
+
+  &_light {
+    font-weight: 300;
+  }
+  &_regular {
+    font-weight: 400;
+  }
+  &_medium {
+    font-weight: 500;
+  }
+  &_bold {
+    font-weight: 700;
+  }
+}

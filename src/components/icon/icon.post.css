@@ -1,0 +1,262 @@
+$icon-base-line: 24px;
+$icon-color-gray-dark: #424956;
+$icon-color-gray: #818791;
+$icon-color-gray-light: #d5d6d8;
+$icon-color-gray-pastel: #f4f7f9;
+$icon-color-default: #d5d6d8;
+$icon-color-primary: #4a8bfa;
+$icon-color-success: $color-success;
+$icon-color-error: $color-error;
+$icon-color-warning: #ffbb3c;
+
+.icon {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  fill: $icon-color-default;
+
+  margin-bottom: 20px;
+
+  transition: all 0.2s ease;
+
+  &_align {
+    &_top {
+      vertical-align: top;
+    }
+  }
+
+  &_end {
+    margin-bottom: 0;
+  }
+
+  &_margin {
+    &_left {
+      margin-left: 5px;
+    }
+
+    &_right {
+      margin-right: 5px;
+    }
+  }
+
+  &_size {
+    &_xxs {
+      margin-bottom: 2px;
+      width: 1.4rem;
+      height: 1.4rem;
+    }
+
+    &_xs {
+      margin-bottom: 2px;
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+
+    &_s {
+      margin-bottom: 2px;
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+
+    &_m {
+      margin-bottom: 2px;
+      width: 2rem;
+      height: 2rem;
+    }
+
+    &_l {
+      margin-bottom: 2px;
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+
+    &_xl {
+      margin-bottom: 2px;
+      width: 3rem;
+      height: 3rem;
+    }
+
+    &_xxl {
+      margin-bottom: 2px;
+      width: 4.8rem;
+      height: 4.8rem;
+    }
+  }
+
+  &_color {
+
+    &_grey {
+      fill: #86939e;
+    }
+
+    &_white {
+      fill: #fff;
+    }
+  }
+
+  &_stroke {
+    &_1 {
+      stroke-width: 1px;
+    }
+  }
+
+  &_linecap {
+    &_butt {
+      stroke-linecap: butt;
+    }
+
+    &_round {
+      stroke-linecap: round;
+    }
+
+    &_square {
+      stroke-linecap: square;
+    }
+  }
+
+  &_linejoin {
+    &_mitter {
+      stroke-linejoin: miter;
+    }
+
+    &_round {
+      stroke-linejoin: round;
+    }
+
+    &_bevel {
+      stroke-linejoin: bevel;
+    }
+  }
+
+  &_stroke-opacity {
+    &_1 {
+      stroke-opacity: 10%;
+    }
+
+    &_2 {
+      stroke-opacity: 20%;
+    }
+
+    &_3 {
+      stroke-opacity: 30%;
+    }
+
+    &_4 {
+      stroke-opacity: 40%;
+    }
+
+    &_5 {
+      stroke-opacity: 50%;
+    }
+
+    &_6 {
+      stroke-opacity: 60%;
+    }
+
+    &_7 {
+      stroke-opacity: 70%;
+    }
+
+    &_8 {
+      stroke-opacity: 80%;
+    }
+
+    &_9 {
+      stroke-opacity: 90%;
+    }
+
+    &_10 {
+      stroke-opacity: 100%;
+    }
+  }
+
+  &_opacity {
+    &_1 {
+      fill-opacity: 0.1;
+    }
+
+    &_2 {
+      fill-opacity: 0.2;
+    }
+
+    &_3 {
+      fill-opacity: 0.3;
+    }
+
+    &_4 {
+      fill-opacity: 0.4;
+    }
+
+    &_5 {
+      fill-opacity: 0.5;
+    }
+
+    &_6 {
+      fill-opacity: 0.6;
+    }
+
+    &_7 {
+      fill-opacity: 0.7;
+    }
+
+    &_8 {
+      fill-opacity: 0.8;
+    }
+
+    &_9 {
+      fill-opacity: 0.9;
+    }
+
+    &_10 {
+      fill-opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .icon {
+    &_size {
+      &_xxs {
+        margin-bottom: 2px;
+        width: 1.6rem;
+        height: 1.6rem;
+      }
+
+      &_xs {
+        margin-bottom: 2px;
+        width: 1.8rem;
+        height: 1.8rem;
+      }
+
+      &_s {
+        margin-bottom: 2px;
+        width: 2rem;
+        height: 2rem;
+      }
+
+      &_m {
+        margin-bottom: 2px;
+        width: 2.4rem;
+        height: 2.4rem;
+      }
+
+      &_l {
+        margin-bottom: 2px;
+        width: 3rem;
+        height: 3rem;
+      }
+
+      &_xl {
+        margin-bottom: 2px;
+        width: 4.8rem;
+        height: 4.8rem;
+      }
+
+      &_xxl {
+        margin-bottom: 2px;
+        width: 4.8rem;
+        height: 4.8rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.footer {
+  padding: 40px 70px;
+
+  &_back {
+    &_dark {
+      background: #86939E;
+    }
+  }
+
+  &__element {}
+
+  /* For phone numbers */
+  a {
+    color: rgba(255, 255, 255, 0.8);
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 40px;
+
+    &__element {
+      margin-bottom: 20px !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 50px 30px;
+
+    &__element {
+      margin-bottom: 20px !important;
+    }
+  }
+}
+
+@media (max-width: 667px) {
+  .footer {
+    padding: 30px 20px 20px;
+
+    &__element {
+      margin-bottom: 30px !important;
+    }
+  }
+}

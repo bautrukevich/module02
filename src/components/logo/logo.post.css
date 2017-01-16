@@ -1,0 +1,47 @@
+.logo {
+  display: inline-block;
+  height: 22px;
+
+  &_small {}
+
+  &_end {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .logo {
+
+    &_end {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin-bottom: 40px;
+
+    &_small {
+      margin-bottom: 20px;
+    }
+
+    &_end {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 667px) {
+  .logo {
+    margin-bottom: 40px;
+
+    &_small {
+      margin-bottom: 20px;
+    }
+
+    &_end {
+      margin-bottom: 0;
+    }
+  }
+}

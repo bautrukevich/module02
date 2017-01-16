@@ -1,0 +1,26 @@
+.input {
+  border: 2px solid #E1E8EE;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #86939E;
+  padding: 20px;
+  -webkit-appearance: none;
+
+  margin-bottom: 20px;
+
+  transition: all 0.2s ease;
+
+  &:focus {
+    border-color: #7DC855;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+  }
+
+  &_end {
+    margin-bottom: 0;
+  }
+
+  &_full {
+    width: 100%;
+  }
+}

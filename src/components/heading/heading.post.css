@@ -1,0 +1,19 @@
+.h1 {
+  color: #43484D;
+  font-size: 52px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+  line-height: 58px;
+
+  &_white {
+    color: #FFF;
+  }
+}
+
+.h3 {
+  font-size: 18px;
+  color: #43484D;
+  letter-spacing: 0px;
+  line-height: 25px;
+}

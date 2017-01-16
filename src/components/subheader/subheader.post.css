@@ -1,0 +1,19 @@
+.subheader {
+  color: #5E6977;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+
+  margin-bottom: 40px;
+
+  &_white {
+    color: #fff;
+    opacity: 0.8;
+  }
+
+  &_mb {
+    &_80 {
+      margin-bottom: 80px;
+    }
+  }
+}

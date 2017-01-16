@@ -1,0 +1,6 @@
+.service {
+  margin-bottom: 60px;
+  &__icon {
+    margin-bottom: 30px;
+  }
+}

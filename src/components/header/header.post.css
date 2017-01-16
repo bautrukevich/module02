@@ -1,0 +1,23 @@
+.header {
+  padding: 40px 70px;
+  box-shadow: 1px 2px 3px 0 rgba(0,0,0,.1);
+
+  &_fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 35px 70px;
+  }
+}
+
+@media (max-width: 667px) {
+  .header {
+    padding: 30px 70px;
+  }
+}

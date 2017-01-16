@@ -1,0 +1,22 @@
+.tag {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+
+  margin-bottom: 20px;
+
+  &_grey {
+    color: #86939E;
+  }
+
+  &_white {
+    opacity: 0.6;
+    color: #fff;
+  }
+
+  &_mb {
+    &_60 {
+      margin-bottom: 60px;
+    }
+  }
+}

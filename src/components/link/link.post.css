@@ -1,0 +1,13 @@
+.link {
+  color: #5e6977;
+  text-decoration: none;
+  border-bottom: 1px solid #E1E8EE;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: #7DC855;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(125, 200, 85, 0.3);
+    transition: all 0.5s ease;
+  }
+}

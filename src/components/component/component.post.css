@@ -1,0 +1,22 @@
+.component {
+  position: relative;
+  padding: 100px 135px 120px 135px;
+}
+
+@media (max-width: 1024px) {
+  .component {
+    padding: 80px 50px 100px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .component {
+    padding: 60px 30px 80px 30px;
+  }
+}
+
+@media (max-width: 667px) {
+  .component {
+    padding: 40px 20px 60px 20px;
+  }
+}

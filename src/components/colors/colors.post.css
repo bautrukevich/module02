@@ -1,0 +1,7 @@
+.u-color {
+  &_back {
+    &_grey {
+      background-color: #F4F4F4;
+    }
+  }
+}

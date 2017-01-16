@@ -1,0 +1,41 @@
+{
+  "name": "last-startum-postcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.babel.js",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "babel-polyfill": "^6.13.0",
+    "babel-runtime": "^6.11.6",
+    "flexiblegs-bem": "^5.5.3",
+    "jquery": "^3.1.1",
+    "jquery.scrollto": "^2.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "browser-sync": "^2.16.0",
+    "cssnano": "^3.7.5",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-pug": "^3.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "^4.3.10",
+    "postcss-scss": "^0.3.0",
+    "precss": "^1.4.0",
+    "webpack-stream": "^3.2.0",
+    "webpack-uglify-js-plugin": "^1.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
